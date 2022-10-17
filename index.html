@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/estilos.css">
+        <title>Tu Cripto Al Momento</title>
+    </head>
+
+    <body>
+
+        <section id="seccion">
+            <div id="contenedor-padre">
+                <div id="imagen">
+                    <img src="img/undraw_stock_prices_re_js33.svg" alt="">
+                </div>
+                <form id="form">
+                    <div class="contenedor-hijos">
+                        <h1 class="titulos"> Elige tu Moneda</h1>
+                        <select name="moneda" id="moneda-select" class="selectores">
+                            <option selected disabled value="">Selecciona una Moneda</option>
+                            <option value="USD">Dolar US</option>
+                            <option value="EUR">Euros</option>
+                            <option value="ARS">Pesos Argentinos</option>
+                            <option value="VEF">Bolivares</option>
+                        </select>
+                        <div class="contenedor-hijos">
+                            <h1 class="titulos">Elige tu Criptomoneda</h1>
+                            <select name="criptomoneda" id="cripto-select" class="selectores">
+                                <option selected disabled value="">Selecciona una Criptomoneda</option>
+                                <option value="BTC">Bitcoin</option>
+                                <option value="ETH">Ethereum</option>
+                                <option value="AXS">AXS</option>
+                                <option value="BNB">Binance Coin</option>
+                            </select>
+                            <h1 class="titulos">Monto</h1>
+                            <input placeholder="Ingresa un Monto" id="input" class="selectores" type="text">
+                        </div>
+                    </div>
+                    <button id="boton-cotizar">Cotizar</button>
+                </form>
+                <div id="coin-info">
+                </div>
+
+
+            </div>
+
+
+
+
+
+        </section>
+
+        <script src="js/script.js"></script>
+    </body>
+
+</html>
